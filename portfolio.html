@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | XYZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="about.html">О компании</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-intro">
+            <h1>Наши проекты</h1>
+            <p>Здесь представлены наши лучшие работы, которые помогли клиентам добиться успеха.</p>
+        </section>
+
+        <section class="portfolio-filter">
+            <button data-filter="all" class="active">Все</button>
+            <button data-filter="consulting">Консалтинг</button>
+            <button data-filter="finance">Финансы</button>
+            <button data-filter="marketing">Маркетинг</button>
+        </section>
+
+        <section class="portfolio-gallery">
+            <div class="project" data-category="consulting">
+                <img src="img/project1.jpg" width="400" height="400" alt="Проект 1">
+                <h2>Бизнес-стратегия</h2>
+                <p>Разработка стратегии для крупной компании.</p>
+            </div>
+            <div class="project" data-category="finance">
+                <img src="img/project2.jpg" width="400" height="400" alt="Проект 2">
+                <h2>Финансовый анализ</h2>
+                <p>Комплексный аудит финансовых потоков.</p>
+            </div>
+            <div class="project" data-category="marketing">
+                <img src="img/project3.jpg" alt="Проект 3">
+                <h2>Маркетинговая кампания</h2>
+                <p>Эффективное продвижение нового бренда.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
